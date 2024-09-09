@@ -1,0 +1,6 @@
+version: 1
+cron:
+  #RUN EVERY 5 mins
+  - name: "schedule"
+    url: "/schedule"
+    schedule: "*/5 * * * *"
